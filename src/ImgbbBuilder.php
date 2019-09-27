@@ -3,9 +3,9 @@
 class ImgbbBuilder
 {
 
-    var $apikey = null;
-    var $imageBase64 = null;
-    var $name = null;
+    private $apikey = null;
+    private $imageBase64 = null;
+    private $name = null;
 
     public function __construct()
     {
