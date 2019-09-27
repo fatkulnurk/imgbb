@@ -1,0 +1,22 @@
+{
+    "name": "fatkulnurk/imgbb",
+    "description": "imgbb.com api",
+    "type": "library",
+    "keywords": ["imgbb", "imgbb api"],
+    "homepage" : "https://github.com/fatkulnurk/imgbb",
+    "authors": [
+        {
+            "name": "fatkulnurk",
+            "email": "fatkulnurk@gmail.com",
+            "homepage": "https://fatkulnurk.github.io"
+        }
+    ],
+    "require": {
+      "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Imgbb": "src"
+        }
+    }
+}
