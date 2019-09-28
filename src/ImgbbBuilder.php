@@ -1,4 +1,5 @@
 <?php
+namespace FatkulNurK\Imgbb;
 
 class ImgbbBuilder
 {
@@ -6,10 +7,6 @@ class ImgbbBuilder
     private $apikey = null;
     private $imageBase64 = null;
     private $name = null;
-
-    public function __construct()
-    {
-    }
 
     /**
      * @param null $apikey
